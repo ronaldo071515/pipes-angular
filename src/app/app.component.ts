@@ -4,8 +4,7 @@ import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit{
   title = 'pipesApp';
@@ -17,18 +16,5 @@ export class AppComponent implements OnInit{
   ngOnInit() {
     this.primengConfig.ripple = true;
   }
-
-
-/*   nombre: string = 'ronaldo torres';
-  valor: number = 1000;
-  obj = {
-    nombre: 'Ronaldo'
-  }
-
-  mostrarNombre() {
-    console.log( this.nombre );
-    console.log( this.valor );
-    console.log( this.obj );
-  } */
 
 }
