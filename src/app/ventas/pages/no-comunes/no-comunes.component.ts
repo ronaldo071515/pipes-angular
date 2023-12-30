@@ -19,12 +19,12 @@ export class NoComunesComponent {
   }
 
   cambiarPersona() {
-    this.nombre = 'Andrea';
+    this.nombre = 'Rosa';
     this.genero = 'femenino'
   }
 
   /* i18nPlurar */
-  clientes: string [] = ['Maria', 'Pedro', 'Ronaldo', 'David', 'Juana', 'Andrea'];
+  clientes: string [] = ['Maria', 'Pedro', 'Ronaldo', 'David', 'Juana', 'Rosa'];
 
   clientesMapa = {
     '=0': 'no tenemos ningun cliente esperando.',
